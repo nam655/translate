@@ -2,16 +2,15 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>영어 문서 자동 번역기</title>
+  <title>자동 한영 문서 번역</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>영어 문서 자동 번역기</h1>
-    <textarea id="englishText" placeholder="영어 문서를 입력하세요..."></textarea>
-    <button onclick="translateText()">번역하기</button>
-    <h2>번역 결과</h2>
-    <div id="translatedText">여기에 번역된 내용이 표시됩니다.</div>
+    <h2>자동 한영 번역기</h2>
+    <textarea id="input" placeholder="여기에 영어 또는 한글 문서를 입력하세요"></textarea>
+    <button id="translateBtn">번역하기</button>
+    <div id="output" class="output"></div>
   </div>
   <script src="script.js"></script>
 </body>

@@ -1,45 +1,43 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f2f5;
-  padding: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: #f2f2f2;
 }
-
 .container {
-  max-width: 700px;
-  margin: auto;
+  width: 400px;
+  margin: 40px auto;
   background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #eee;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
-
 textarea {
-  width: 100%;
-  height: 150px;
-  padding: 10px;
-  font-size: 16px;
+  width: 95%;
+  height: 120px;
   margin-bottom: 20px;
-  resize: vertical;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+  font-size: 15px;
+  padding: 10px;
 }
-
-button {
-  padding: 10px 20px;
+#output {
+  margin-top: 20px;
+  min-height: 50px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 14px;
   font-size: 16px;
-  background-color: #0078D4;
-  color: white;
+}
+button {
+  padding: 10px 24px;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
+  background: #6c63ff;
+  color: white;
+  font-size: 15px;
   cursor: pointer;
 }
-
 button:hover {
-  background-color: #005a9e;
-}
-
-#translatedText {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: #e8f0fe;
-  border-radius: 5px;
-  font-size: 16px;
+  background: #4f4acd;
 }
